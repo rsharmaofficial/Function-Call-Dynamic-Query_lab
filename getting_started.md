@@ -97,13 +97,9 @@ After completing each task, hit the **Validate** button under the Validation tab
 
    - **Email/Username:** <inject key="AzureAdUserEmail"></inject>
 
-     ![Enter Your Username](./Media/GettingStarted/getting-started-8.png)
+     ![Enter Your Username](./Media/GettingStarted/image1.png)
 
-1. Next, provide your password:
-
-   - **Password:** <inject key="AzureAdUserPassword"></inject>
-
-     ![Enter Your Password](./Media/GettingStarted/getting-started-9.png)
+1. Next, provide your password click **Sign in**
 
 1. If prompted to **Stay Signed in**, click **No**.
 
