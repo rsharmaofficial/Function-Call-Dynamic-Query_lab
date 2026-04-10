@@ -10,10 +10,11 @@ In this lab, you will complete the following tasks:
 
 - Task 1: Create Application Files Locally
 - Task 2: Review Application Files
-- Task 3: Deploy Application to Azure App Service
-- Task 4: Verify Deployment via Logs
-- Task 5: Test the Application
-- Task 6: Verify in Azure Portal
+- Task 3: Build the Application Code in `main.py`
+- Task 4: Deploy Application to Azure App Service
+- Task 5: Verify Deployment via Logs
+- Task 6: Test the Application
+- Task 7: Verify in Azure Portal
 
 ## Estimated time: 60 minutes
 
@@ -422,7 +423,7 @@ python3 -m gunicorn -w 4 -k uvicorn.workers.UvicornWorker main:app --bind 0.0.0.
 
 ![](./Media/Lab4/image4.png)
 
-### Task 3: Deploy Application to Azure App Service
+### Task 4: Deploy Application to Azure App Service
 
 You will zip the application files and deploy them to Azure App Service using the Azure CLI. This uploads your code to the cloud where it will run permanently.
 
@@ -474,7 +475,7 @@ You will zip the application files and deploy them to Azure App Service using th
 
    > **Verify:** Deployment shows `"complete": true` and `"status": 4`.
 
-### Task 4: Verify Deployment via Logs
+### Task 5: Verify Deployment via Logs
 
 After deploying, watch the live application logs to confirm the startup script runs successfully, packages are installed, and the web server starts without errors.
 
@@ -499,7 +500,7 @@ After deploying, watch the live application logs to confirm the startup script r
 
    > **Verify:** Logs show `Application startup complete` with no errors.
 
-### Task 5: Test the Application
+### Task 6: Test the Application
 
 With the application running, open the web interface and test it by asking natural language questions about your database. The AI should generate SQL, query your Azure SQL Database, and return real answers.
 
@@ -542,7 +543,7 @@ With the application running, open the web interface and test it by asking natur
 
    > **Verify:** App returns real data from your Azure SQL Database for all test questions.
 
-### Task 6: Verify in Azure Portal
+### Task 7: Verify in Azure Portal
 
 As a final verification step, confirm everything is connected and running correctly from the Azure Portal.
 
