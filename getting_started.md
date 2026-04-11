@@ -51,7 +51,7 @@ Welcome to the **Text-to-SQL using Azure OpenAI and Azure SQL** Workshop! In thi
 
 Once you're ready to dive in, your virtual machine and lab guide will be right at your fingertips within your web browser.
 
-![Access Your VM and Lab Guide](./Media/GettingStarted/getting-started-1.png)
+![Access Your VM and Lab Guide](./Media/GettingStarted/image6.png)
 
 ## Virtual Machine & Lab Guide
 
@@ -61,37 +61,37 @@ Your virtual machine is your workhorse throughout the workshop. The lab guide is
 
 To get a better understanding of your lab resources and credentials, navigate to the **Environment** tab.
 
-![Explore Lab Resources](./Media/GettingStarted/getting-started-2.png)
+![Explore Lab Resources](./Media/GettingStarted/image9.png)
 
 ## Utilizing the Split Window Feature
 
 For convenience, you can open the lab guide in a separate window by selecting the **Split Window** button from the top right corner.
 
-![Use the Split Window Feature](./Media/GettingStarted/getting-started-3.png)
+![Use the Split Window Feature](./Media/GettingStarted/image7.png)
 
 ## Managing Your Virtual Machine
 
 Feel free to **Start, Stop, or Restart (2)** your virtual machine as needed from the **Resources (1)** tab. Your experience is in your hands!
 
-![Manage Your Virtual Machine](./Media/GettingStarted/getting-started-4.png)
+![Manage Your Virtual Machine](./Media/GettingStarted/image9.png)
 
 ## Lab Guide Zoom In/Zoom Out
 
 To adjust the zoom level for the environment page, click the **A↕: 100%** icon located next to the timer in the lab environment.
 
-![Lab Guide Zoom](./Media/GettingStarted/getting-started-5.png)
+![Lab Guide Zoom](./Media/GettingStarted/image8.png)
 
 ## Lab Validation
 
 After completing each task, hit the **Validate** button under the Validation tab integrated within your lab guide. If you receive a success message, you can proceed to the next task. If not, carefully read the error message and retry the step, following the instructions in the lab guide.
 
-![Inline Validation](./Media/GettingStarted/getting-started-6.png)
+![Inline Validation](./Media/GettingStarted/image3.png)
 
 ## Let's Get Started with Azure Portal
 
 1. In the LabVM, click on the **Azure portal** shortcut of the Microsoft Edge browser, which is created on the desktop.
 
-   ![Open Azure Portal](./Media/GettingStarted/getting-started-7.png)
+   ![Open Azure Portal](./Media/GettingStarted/image2.png)
 
 1. You'll see the **Sign into Microsoft Azure** tab. Here, enter your credentials:
 
@@ -116,6 +116,6 @@ Learner Support Contacts:
 
 Now, click on **Next** from the lower right corner to move on to the next page.
 
-![Start Your Azure Journey](./Media/GettingStarted/getting-started-10.png)
+![Start Your Azure Journey](./Media/GettingStarted/bottom.png)
 
 ## Happy Learning!!
