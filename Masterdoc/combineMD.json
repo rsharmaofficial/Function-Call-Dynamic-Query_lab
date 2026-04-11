@@ -1,0 +1,57 @@
+[
+  {
+    "Name": "Lab Guide: Function Call Dynamic Query - Getting Started",
+    "Language": "English",
+    "BaseURL": "https://github.com/rsharmaofficial/Function-Call-Dynamic-Query_lab/tree/main",
+    "Files": [
+      {
+        "RawFilePath": "https://raw.githubusercontent.com/rsharmaofficial/Function-Call-Dynamic-Query_lab/refs/heads/main/getting_started.md",
+        "Order": 1
+      }
+    ]
+  },
+  {
+    "Name": "Lab 01: Provisioning Azure SQL Server & Database",
+    "Language": "English",
+    "BaseURL": "https://github.com/rsharmaofficial/Function-Call-Dynamic-Query_lab/tree/main",
+    "Files": [
+      {
+        "RawFilePath": "https://raw.githubusercontent.com/rsharmaofficial/Function-Call-Dynamic-Query_lab/refs/heads/main/Lab1.md",
+        "Order": 1
+      }
+    ]
+  },
+  {
+    "Name": "Lab 02: Creating Azure OpenAI Service & App Service",
+    "Language": "English",
+    "BaseURL": "https://github.com/rsharmaofficial/Function-Call-Dynamic-Query_lab/tree/main",
+    "Files": [
+      {
+        "RawFilePath": "https://raw.githubusercontent.com/rsharmaofficial/Function-Call-Dynamic-Query_lab/refs/heads/main/Lab2.md",
+        "Order": 1
+      }
+    ]
+  },
+  {
+    "Name": "Lab 03: Configuring Security & Managed Identity",
+    "Language": "English",
+    "BaseURL": "https://github.com/rsharmaofficial/Function-Call-Dynamic-Query_lab/tree/main",
+    "Files": [
+      {
+        "RawFilePath": "https://raw.githubusercontent.com/rsharmaofficial/Function-Call-Dynamic-Query_lab/refs/heads/main/Lab3.md",
+        "Order": 1
+      }
+    ]
+  },
+  {
+    "Name": "Lab 04: Deploying the Application & Testing",
+    "Language": "English",
+    "BaseURL": "https://github.com/rsharmaofficial/Function-Call-Dynamic-Query_lab/tree/main",
+    "Files": [
+      {
+        "RawFilePath": "https://raw.githubusercontent.com/rsharmaofficial/Function-Call-Dynamic-Query_lab/refs/heads/main/Lab4.md",
+        "Order": 1
+      }
+    ]
+  }
+]
