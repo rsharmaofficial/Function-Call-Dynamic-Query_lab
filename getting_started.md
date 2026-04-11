@@ -1,4 +1,4 @@
-# Get Started with Text-to-SQL using Azure OpenAI and Azure SQL
+# Get Started with Function call Dynamic Query using Azure OpenAI and Azure SQL
 
 ### Overall Estimated Duration: 4 Hours
 
@@ -8,7 +8,7 @@ Azure OpenAI Service brings the powerful generative AI models developed by OpenA
 
 ## Objective
 
-In this hands-on lab, you will learn how to build a complete Text-to-SQL solution on Microsoft Azure. You will start by provisioning the necessary infrastructure, configuring enterprise-grade security using Managed Identity, and deploying a Python web application that uses GPT-4.1 to convert natural language questions into SQL queries executed against a live Azure SQL Database. By the end of the lab, you will have a fully functional web application accessible via a public URL that answers database questions in plain English.
+In this hands-on lab, you will learn how to build a complete Function call Dynamic Query solution on Microsoft Azure. You will start by provisioning the necessary infrastructure, configuring enterprise-grade security using Managed Identity, and deploying a Python web application that uses GPT-4.1 to convert natural language questions into SQL queries executed against a live Azure SQL Database. By the end of the lab, you will have a fully functional web application accessible via a public URL that answers database questions in plain English.
 
 - **Provisioning Azure SQL Server & Database:** This hands-on lab task aims to create an Azure SQL Server with Microsoft Entra-only authentication, configure firewall rules, and set up the `SalesLT` database schema with sample customers, products, and sales order data using the Azure Portal's built-in Query Editor.
 
@@ -16,7 +16,7 @@ In this hands-on lab, you will learn how to build a complete Text-to-SQL solutio
 
 - **Configuring Security & Managed Identity:** This hands-on lab task aims to implement passwordless authentication by creating a User Assigned Managed Identity, attaching it to the App Service, assigning the Cognitive Services OpenAI User RBAC role on the OpenAI resource, and creating SQL database users for both the Managed Identity and the App Service's System Assigned Identity.
 
-- **Deploying the Application & Testing:** This hands-on lab task aims to create the application files locally (`main.py`, `requirements.txt`, `startup.sh`), deploy them to Azure App Service using the Azure CLI, verify the deployment via live log streaming, and test the complete end-to-end Text-to-SQL pipeline through the web interface.
+- **Deploying the Application & Testing:** This hands-on lab task aims to create the application files locally (`main.py`, `requirements.txt`, `startup.sh`), deploy them to Azure App Service using the Azure CLI, verify the deployment via live log streaming, and test the complete end-to-end Function call Dynamic Query pipeline through the web interface.
 
 ## Pre-requisites
 
@@ -39,13 +39,13 @@ The architecture for this lab follows a multi-service pipeline on Azure. A user 
 
 1. **Azure OpenAI (GPT-4.1):** Azure OpenAI Service provides REST API access to OpenAI's powerful language models. The deployed GPT-4.1 model performs two roles in this lab: first, it converts the user's natural language question into a SQL query; second, it formats the raw database results into a clear, human-readable answer.
 
-1. **Azure App Service:** Azure App Service is a fully managed platform for hosting web applications. In this lab, it runs the Python FastAPI application that orchestrates the entire Text-to-SQL pipeline — receiving user input, calling OpenAI, querying SQL, and returning the answer.
+1. **Azure App Service:** Azure App Service is a fully managed platform for hosting web applications. In this lab, it runs the Python FastAPI application that orchestrates the entire Function call Dynamic Query pipeline — receiving user input, calling OpenAI, querying SQL, and returning the answer.
 
 1. **Azure Managed Identity:** Managed Identity provides Azure services with an automatically managed identity in Azure Active Directory. In this lab, it enables the App Service to authenticate with both Azure OpenAI and Azure SQL Database without storing any passwords or API keys in the application code.
 
 ## Getting Started with the Lab
 
-Welcome to the **Text-to-SQL using Azure OpenAI and Azure SQL** Workshop! In this lab, you will build a complete AI-powered application that translates natural language questions into SQL queries and returns intelligent answers from a live database. You will provision cloud infrastructure, configure enterprise security, write and deploy application code, and validate the end-to-end solution. Let's get started and explore the power of combining Azure OpenAI with Azure SQL.
+Welcome to the **Function call Dynamic Query using Azure OpenAI and Azure SQL** Workshop! In this lab, you will build a complete AI-powered application that translates natural language questions into SQL queries and returns intelligent answers from a live database. You will provision cloud infrastructure, configure enterprise security, write and deploy application code, and validate the end-to-end solution. Let's get started and explore the power of combining Azure OpenAI with Azure SQL.
 
 ## Accessing Your Lab Environment
 
