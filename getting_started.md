@@ -31,7 +31,7 @@ The architecture for this lab follows a multi-service pipeline on Azure. A user 
 
 ## Architecture Diagram
 
-![Architecture Diagram](./Media/GettingStarted/Screenshot 2026-04-12 204908.png)
+![Architecture Diagram](./Media/GettingStarted/Screenshot%202026-04-12%20204908.png)
 
 ## Explanation of Components
 
